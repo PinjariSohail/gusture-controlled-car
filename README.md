@@ -1,1 +1,5 @@
 # gusture-controlled-car
+
+This project demonstrates a gesture-controlled robotic car that utilizes an ESP32, an accelerometer (MPu6050), and a wireless transmission system to control movement based on hand gestures. The system interprets tilt-based motion of the accelerometer, translating forward, backward, left, and right gestures into respective commands for the car’s motors via RF or Bluetooth communication. The receiver, mounted on the robot car, interprets these signals and activates the motors accordingly using a motor driver IC (like L293D).
+
+This project combines fundamental concepts of embedded systems, wireless communication, and motion sensing, making it ideal for engineering students and hobbyists exploring human-machine interaction or remote control robotics. The Arduino code in this repository is well-commented, helping users understand how analog accelerometer data is processed and translated into digital movement commands. This project can be further extended by integrating obstacle detection using ultrasonic sensors or adding a smartphone interface via Bluetooth modules like HC-05.
